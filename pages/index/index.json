@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "mylist": "/components/dsScrollCatalog/dsScrollCatalog"
+  }
+}

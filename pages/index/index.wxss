@@ -1,0 +1,26 @@
+/* pages/test/test.wxss */
+.content_1{
+  color: white;
+  background-color: #56A36C;
+  height: 200rpx;
+}
+.content_2{
+  color: white;
+  background-color: #5E8579;
+  height: 300rpx;
+}
+.content_3{
+  color: white;
+  background-color: #77C34F;
+  height: 150rpx;
+}
+.content_4{
+  color: white;
+  background-color: #2E68AA;
+  height: 700rpx;
+}
+.content_5{
+  color: white;
+  background-color: #7E884F;
+  height: 450rpx;
+}

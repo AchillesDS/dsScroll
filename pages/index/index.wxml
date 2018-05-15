@@ -1,0 +1,8 @@
+<!--index.wxml-->
+<mylist catalogBig="{{catalogBig}}" content="{{content}}">
+  <view slot="content_0" class="content_1">内容1</view>
+  <view slot="content_1" class="content_2">内容2</view>
+  <view slot="content_2" class="content_3">内容3</view>
+  <view slot="content_3" class="content_4">内容4</view>
+  <view slot="content_4" class="content_5">内容5</view>
+</mylist>

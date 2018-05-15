@@ -1,0 +1,34 @@
+.catalog-wrap{
+  display: flex;
+  text-align: center;
+  height: 90rpx;
+  line-height: 90rpx;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  background-color: white;
+}
+.catalog-big{
+  flex: 1 0 auto;
+  border-bottom: 1rpx solid #e8e8e8;
+  padding-bottom: 10rpx;
+}
+.catalog-big.active{
+  color: #3e86ff;
+  border-bottom: 1rpx solid #3e86ff;
+  font-weight: bold;
+}
+.myplace-top{
+  height: 90rpx;
+}
+.myplace-bottom{
+  height: 80vh;
+}
+.second-level{
+  margin: 0 20rpx;
+  font-size: 32rpx;
+  height: 90rpx;
+  line-height: 90rpx;
+}

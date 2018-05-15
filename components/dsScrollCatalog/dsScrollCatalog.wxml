@@ -1,0 +1,11 @@
+<view class="catalog-wrap">
+  <view class="{{item.myclass}}" wx:for="{{catalogBig}}" wx:key="{{index}}" data-idx='{{index}}' bindtap='changeBig'>{{item.title}}</view>
+</view>
+<scroll-view scroll-y scroll-into-view="{{toView}}" style='height: 100vh' scroll-with-animation="true" enable-back-to-top="true" bindscroll="scroll">
+  <view class="myplace-top"></view>
+  <block wx:for="{{content}}" wx:key="{{item.id}}">
+    <view class="second-level getTop" id="{{item.id}}">{{item.title}}</view>
+    <slot name="{{item.id}}"></slot>
+  </block>
+  <view class="myplace-bottom"></view>
+</scroll-view>
